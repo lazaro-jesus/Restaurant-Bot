@@ -71,6 +71,6 @@ class Client:
         try:
             with open('db/clients.json', 'r', encoding='utf-8') as file:
                 pass
-        except:
+        except FileNotFoundError:
             with open('db/clients.json', 'w', encoding='utf-8') as file:
                 json.dump({}, file, indent=4)
