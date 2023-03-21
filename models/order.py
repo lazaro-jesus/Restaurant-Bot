@@ -117,6 +117,10 @@ class Order:
             with open('db/orders.json', 'r', encoding='utf-8') as file:
                 pass
         except FileNotFoundError:
+            import os
+            
+            os.mkdir('db')
+            
             with open('db/orders.json', 'w', encoding='utf-8') as file:
                 json.dump({}, file, indent=4)
                 
