@@ -15,7 +15,7 @@ import services
 
 
 # API_TOKEN = 'API_BOT_TOKEN'
-API_TOKEN = '1901588338:AAGud-4EAlGMmQ0ZTr5-qkEiH1RTtUCQ1BE'
+API_TOKEN = 'API_BOT_TOKEN'
 
 # Configuración de logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
